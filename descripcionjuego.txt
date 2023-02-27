@@ -1,0 +1,13 @@
+#!bin/bash
+
+#Descripcion el pc elige un numero enre 0 y 2, asignado a pidra papel y tijera
+#luego el jugador elige un numero entre las opciones disponibles 
+#funcion del juego: entre if anidados y cases, se comprueba el ganador
+
+#Variables usadas
+Cpu-""
+CpuJ-""
+jugador-""
+
+#Codigo principio
+CPU-$(( $RANDOM % 3 ))
